@@ -1,0 +1,162 @@
+body {
+    background-color: #f8f8f2;
+}
+
+a {
+    cursor: pointer;
+}
+
+#container {
+    height: 599px;
+    width: 900px;
+    margin: 15% auto;
+    position: relative;
+    box-shadow: 4px 10px 20px rgba(55, 52, 73, .4);
+}
+
+#background {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: #7077f9;
+    clip-path: polygon(52% 0, 100% 0, 100% 100%, 0 100%);
+    z-index: -1;
+    transition: all 0.8s ease-in;
+}
+
+.navbar {
+    display: block;
+    float: right;
+    margin: 1em;
+    margin-top: 2.4em;
+    font-family: Tahoma;
+    font-size: 15px;
+}
+
+.navbar a {
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #282a36;
+    padding: 10px 10px;
+}
+
+.navbar a:hover {
+    background: #75b4eb;
+    padding: 10px;
+    border-radius: 25px;
+    transition: all 0.5s ease;
+    color: white;
+}
+
+.navbar a:last-child {
+    background: #6272a4;
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.section {
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 100%;
+    height: 80%; 
+}
+
+.button {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    transition: all 1s ease;
+}
+
+.blue {
+    background: #7077f9;
+}
+
+.green {
+    background: #7077f9;
+    left: 35px;
+}
+
+.purple {
+    background: #7077f9;
+    left: 70px;
+}
+
+.pink {
+    background: #7077f9;
+    left: 105px;
+}
+
+h1 {
+    font-family: Tahoma;
+    color: #282a36;
+    text-transform: uppercase;
+    font-size: 3.5em;
+}
+
+#title {
+    transition: all 1s ease;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin-top: -20px;
+    letter-spacing: 3px;
+    font-family: Tahoma;
+    color: #6272a4;
+}
+
+p {
+    font-family: Tahoma;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    display: inline-block;
+    padding: 0 45px;
+    text-transform: uppercase;
+    color: #282a36;
+}
+
+.desc {
+    position: absolute;
+    top: 77%;
+}
+
+.look {
+    position: absolute;
+    color: #f8f8f2;
+    opacity: 0.4;
+    right: 0;
+    top: 185px;
+    font-size: 2.3em;
+    white-space: nowrap;
+    transform: rotate(90deg);
+}
+
+.highlight {
+    background-color: rgba(189, 147, 249, 0.3);
+    padding: 3px;    
+    border-radius: 3px;
+}
+
+.margin-top {
+    margin-top: 135px;
+}
+
+.margin-less {
+    margin-top: -35px;
+}
+
