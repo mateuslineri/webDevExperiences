@@ -1,0 +1,96 @@
+.associar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(250, 246, 0);
+    padding: 15px 0;
+}
+
+.associar p {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(25, 46, 170);
+}
+
+.associar a {
+    padding: 10px;
+    font-weight: bold;
+    margin-left: 35px;
+    color: rgb(25, 46, 170);
+    background-color: #fff;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+.associar a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    height: 250px;
+    background: rgb(25, 46, 170);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.2rem
+}
+
+.icons-footer, .footer-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-nav { 
+    margin-top: 35px;
+    line-height: 25px;
+}
+
+.icons-footer li{
+    margin: auto 10px;
+}
+
+.icons-footer img {
+    height: 65px;
+}
+
+.links-footer > li {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.links-footer  a{
+    font-weight: 300;
+    color: white;
+}
+
+.redes img {
+    height: 25px;
+}
+
+footer p {
+    font-size: 0.6rem;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+@media (max-width: 990px) {
+    footer { 
+        font-size: 0.8rem;
+    }
+
+    .icons-footer img {
+        height: 50px;
+    }
+
+    .redes img {
+        height: 25px;
+    }
+}
+
+@media (max-width: 870px) {
+    
+}
