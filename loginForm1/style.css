@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oxygen', sans-serif;
+  outline: none;
+}
+
+body {
+  background-color: #212121;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 40%;
+  background-color: #111;
+  border-radius: 5px;
+  padding: 50px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login-title {
+  padding-bottom: 50px;
+  color: #757575;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-field, input[type="submit"] {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 25px;
+  color: #757575;
+  background-color: rgba(0,0,0,0);
+  border: 2px solid #3f51b5;
+
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 300;
+  letter-spacing: 3px;
+
+  transition: 0.2s width ease-in-out, 0.2s border ease-in-out;
+}
+
+.input-field:focus{
+  width: 300px;
+  color: #bdbdbd;
+  border: 2px solid #ff4081;  
+}
+
+.retrieve-password {
+  margin: 20px 0 50px 0;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #757575;
+  transition: 0.2s color;
+}
+
+.retrieve-password:hover {
+  color: #bdbdbd;
+}
+
+input[type="submit"] {
+  width: 130px;
+  border-color: #ff4081;
+  color: #bdbdbd;
+  font-weight: 700;
+  padding: 10px 30px 10px 30px;
+  transition: 0.3s background-color ease-out;
+}
+
+input[type="submit"]:hover {
+  background-color: #ff4081;
+  color: black;
+  cursor: pointer;
+}
